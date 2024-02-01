@@ -31,7 +31,7 @@ public class UserJsonServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		//UserData u=new UserData("Tony","23826015","Kung Yuan Road");
 		List<UserData> list=List.of(new UserData("Tony","23826015","Kung Yuan Road"),
-				new UserData("Mary","23826016","Kung Yuan Road 30"),
+				new UserData("Mary","2382","Kung Yuan Road 30"),
 				new UserData("Sunny","23826017","Kung Yuan Road 30-1"));
 		Gson gson=new Gson();
 		System.out.println(gson.toJson(list));

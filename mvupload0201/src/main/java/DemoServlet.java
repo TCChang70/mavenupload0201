@@ -41,8 +41,8 @@ public class DemoServlet extends HttpServlet {
 		String ln=request.getParameter("lastName");
 		if(fn==null||ln==null)
 		{
-			fn="Mary";
-			ln="Wu";
+			fn="Danny";
+			ln="Lee";
 		}
 		response.setContentType("text/html;charset=utf-8");
 		response.getWriter().append("Welcome "+fn+","+ln);
